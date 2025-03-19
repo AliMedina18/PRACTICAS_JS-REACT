@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
         let container = document.createElement("div");
         container.classList.add("circle-container");
 
-        let size = Math.random() * 10 + 5; // Tamaño entre 5px y 15px
-        let duration = Math.random() * 5 + 8; // Duración entre 8s y 13s
-        let startX = Math.random() * window.innerWidth; // Posición aleatoria en X
-        let delay = Math.random() * 5; // Retraso en la animación
+        let size = Math.random() * 10 + 5; 
+        let duration = Math.random() * 5 + 8; 
+        let startX = Math.random() * window.innerWidth; 
+        let delay = Math.random() * 5; // Retraso en la animación para no abrumar
 
         container.style.width = `${size}px`;
         container.style.height = `${size}px`;
